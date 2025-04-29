@@ -1,0 +1,58 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+}
+
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: white;
+}
+
+.bar {
+  background-color: #A92547;
+}
+
+.bar-top {
+  width: 100%;
+  height: 100px;
+  background-color: #96B6CC;
+}
+
+.bar-big {
+  width: 100%;
+  height: 300px;
+}
+
+.bar-medium {
+  width: 60%;
+  height: 72px;
+  margin-top: 12px;
+}
+
+.fila {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  width: 100%;
+  margin-top: 12px;
+}
+
+.fila .bar-small {
+  width: 30%;
+  height: 72px;
+}
+
+.bar-footer {
+  background-color: #A92547;
+  width: 100%;
+  height: 120px;
+  margin-top: 20px;
+}

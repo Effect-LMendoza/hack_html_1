@@ -1,0 +1,46 @@
+/* Margen de todos los containers */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Primer container*/
+.container-1 {
+    width: 100%;
+    height: 120px;
+    background-color: #93b5c9;
+
+}
+
+/* Segundo contenedor */
+.container-2 {
+    width: 100%;
+    height: 200px;
+    background-color: #ab2949;
+}
+
+.floating-containers {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-left: 120px;
+    margin-top: 20px;
+}
+
+.floating-container {
+    width: 450px;
+    height: 100px;
+    background-color: #ab2949;
+    margin-bottom: 20px;
+}
+
+/* Último contenedor con padding */
+.container-7 {
+    background-color: #ab2949;
+    padding: 20px 30px;
+    height: 120px;
+    margin-top: 20px;
+    clear: both;
+    margin: 30px;
+}
